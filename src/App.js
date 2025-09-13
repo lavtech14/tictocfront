@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://tictacback-98z7.onrender.com");
 
 // Winning combinations
 const WINNING_COMBINATIONS = [
